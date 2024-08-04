@@ -1,0 +1,46 @@
+.footer2{
+    max-width: 60vw;
+    margin: auto;
+    padding: 40px 0;
+}
+.firstq{
+    font-size: 15px;
+    font-weight: 300;
+}
+.firstq a{
+    text-decoration: underline;
+    color: rgb(185, 184, 184);
+}
+.tableq{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 0;
+    font-size: 14px;
+    gap: 0 60px;
+    font-weight: 300;
+}
+.tableq .classes div {
+    padding: 10px 0px;
+}
+.tableq .classes div a {
+  color: rgb(185, 184, 184);
+  text-decoration: underline;
+}
+.lastfooter{
+    color: rgb(185, 184, 184);
+    font-size: 14px;
+    margin: 15px 0;
+}
+.langu select{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:760px){
+    .tableq{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
